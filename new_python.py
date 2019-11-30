@@ -10,6 +10,3 @@ num2 = int(input("Enter the second number: "))
 sum = sum_nums(num1, num2)
 
 print("The sum is {}".format(sum))
-
-while True:
-	print()
