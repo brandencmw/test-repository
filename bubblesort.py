@@ -10,7 +10,7 @@ def bubble_sort(list):
 
 	return list
 
-list = [3, 6, 1, 9, 2, 6, 8]
+list = input("Enter the set of numbers to be sorted separated by spaces.").split()
 
 list = bubble_sort(list)
 print(list)
